@@ -39,7 +39,9 @@ const player= {
 
 
 console.log("Am I handsom?: x",player.handson);
+player.number=player.number+12;
 player.food="potato";
 console.log(player);
+
 
 

@@ -20,3 +20,36 @@ const player={ //object 안에 function을 만들 수 있다.
 }
 console.log(player.name);
 player.sayHello("DK");
+
+
+const names ={
+    name: "Daniel",
+    age: 9,
+    height: 171,
+};
+console.log(names.name);
+console.log(names.height);
+
+names.name="Dounguk";
+console.log(names.name);
+const count=["name", "age","height"];
+
+
+const calculator={
+    add: function(a,b){
+        console.log("add ",a+b);
+    },
+    subtract: function (a,b){
+        console.log("subtract ",a-b);
+    },
+    divide: function (a,b){
+        console.log("divide ",a/b);
+    },
+    times: function (a,b){
+        console.log("times ", a**b);
+    }
+}
+calculator.add(1,2);
+calculator.subtract(1,2)
+calculator.divide(1,2)
+calculator.times(1,2)

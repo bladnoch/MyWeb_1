@@ -41,6 +41,8 @@
 // }
 //
 // console.log(calculateKrAge(age));
+const age= prompt("?");
+
 
 const Calc={
     add: function (a,b){
@@ -59,3 +61,7 @@ const Calc={
 
 const added=Calc.add(1,5);
 console.log(Calc.subt(12,added));
+
+
+console.log(typeof age);
+

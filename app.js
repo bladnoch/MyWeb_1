@@ -1,3 +1,10 @@
+/**
+ * study basics of js
+ *
+ * @since 4/6/2023
+ * @author Dounguk Kim
+ */
+
 const num=2; // 값이 바뀔 수 없음
 let num2="5";
 

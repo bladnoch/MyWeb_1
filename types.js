@@ -1,5 +1,5 @@
 /**
- * study types
+ * study types and isNaN
  * @type {number}
  * @since 5/6/2023
  * @author Dounguk Kim

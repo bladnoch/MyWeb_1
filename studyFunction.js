@@ -1,3 +1,9 @@
+/**
+ * study types
+ *
+ * @since 4/9/2023
+ * @author Dounguk Kim
+ */
 // console.log("hello");
 
 // #1

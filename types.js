@@ -9,6 +9,8 @@ let age=29;
 
 if(isNaN( age)){
     console.log("put number");
+} else if( age<21){
+    console.log("you cannot drink alcohol");
 } else{
-    console.log("you are", age, "years old");
+    console.log("you are good to go");
 }

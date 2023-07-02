@@ -1,24 +1,44 @@
-const title =document.querySelector(".hello:first-child h1");
+const h1 =document.querySelector("div.hello:first-child h1");
 
 
 function handleTitleClick(){
-    if(title.style.color=="blue"){
-        title.style.color="pink"
+    if(h1.style.color=="blue"){
+        h1.style.color="pink"
     }
     else {
-        title.style.color="blue"
+        h1.style.color="blue"
     }
 
 }
 
 function handleMouseEnter(){
-    title.innerText="yes mouse";
+    h1.innerText="yes mouse";
 }
 
 function handleMouseLeave(){
-    title.innerText="no mouse";
+    h1.innerText="no mouse";
 }
-title.addEventListener("click",handleTitleClick);
-title.addEventListener(("mouseenter"),handleMouseEnter);
-title.addEventListener("mouseleave",handleMouseLeave);
+function handleWindowResize(){
+    document.body.style.backgroundColor="tomato";
+}
 
+function hadleWindowCopy(){
+    alert("copied");
+}
+
+function hadleWindowOffline(){
+    alert("no WI-FI");
+}
+
+function handleWindowOnline(){
+    alert("yes wi-fi");
+}
+
+h1.addEventListener("click", handleTitleClick);
+h1.addEventListener("mouseenter",handleMouseEnter);
+h1.addEventListener("mouseleave",handleMouseLeave);
+
+window.addEventListener("resize",handleWindowResize);
+window.addEventListener("copy",hadleWindowCopy);
+window.addEventListener("offline",hadleWindowOffline);
+window.addEventListener("online",handleWindowOnline);

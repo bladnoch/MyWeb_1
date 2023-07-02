@@ -6,9 +6,10 @@ h1{
 }
 
 .clicked{
+
     color:tomato;
 }
 
 .sexy-font{
-    color: aqua;
+    font-feature-settings: revert;
 }

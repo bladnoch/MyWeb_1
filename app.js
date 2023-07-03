@@ -1,20 +1,12 @@
 
 const loginInput= document.querySelector("#login-form input");
 const loginButton= document.querySelector("#login-form button");
+const loginForm=document.querySelector("#login-form")
 
-
-function onLogBtnClick(){
-    const value=loginInput.value;
-    console.log(value);
-    // if(value===""){
-    //     alert("please put id");
-    // } else if(value.length>15){
-    //     alert("your name is too long")
-    // } else if(value.length<8){
-    //     alert("your name is too short")
-    // }
-
+function onLogSubmit(event){
+    event.preventDefault();
+    console.log(loginInput.value);
 }
 
-loginButton.addEventListener("click", onLogBtnClick);
+loginForm.addEventListener("submit",onLogSubmit);
 

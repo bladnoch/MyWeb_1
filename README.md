@@ -12,10 +12,12 @@
 <h2>7/5/2023 </h2>
 <img width="156" alt="스크린샷 2023-07-05 오후 11 46 09" src="https://github.com/bladnoch/Webtoon_App/assets/112937442/c5f46479-ae71-4c1a-8a73-c3dd3d6b4890">
 <img width="230" alt="스크린샷 2023-07-05 오후 11 44 45" src="https://github.com/bladnoch/Webtoon_App/assets/112937442/3546dc18-3c82-462d-a1de-f5d23916247b">
+<img width="273" alt="스크린샷 2023-07-06 오전 12 25 57" src="https://github.com/bladnoch/Webtoon_App/assets/112937442/2a6e983b-9627-45f4-bbbe-65941e76f921">
 
     - divide and conquered by file type and perpose
     - clock.js : 시간 표시관련 변수, function
     - greetings.js: 로그인 관련 변수, functions
+    - quotes.js: 어록 리스트, 어록 quote,author 형식으로 출력
 
 /Users/[name]/Desktop/workspace/MyWeb_1/MyWeb_1
 

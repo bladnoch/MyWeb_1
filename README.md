@@ -11,7 +11,9 @@
 
 <h2>7/5/2023 </h2>
 
-    - 
+    - divide and conquered by file type and perpose
+    - clock.js : 시간 표시관련 변수, function
+    - greetings.js: 로그인 관련 변수, functions
 
 /Users/[name]/Desktop/workspace/MyWeb_1/MyWeb_1
 

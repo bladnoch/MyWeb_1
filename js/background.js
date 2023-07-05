@@ -5,3 +5,20 @@
  * @version v0.0.1
  */
 
+const img=[
+    "01.png",
+    "02.jpeg",
+    "03.jpeg",
+    "04.png",
+    "05.jpeg"
+]
+
+const chosenImages =img[Math.floor(Math.random()*img.length)];
+
+const bgImage=document.createElement("img");
+
+bgImage.src=`image/${chosenImages}`;
+
+document.body.appendChild(bgImage);
+
+console.log(bgImage);

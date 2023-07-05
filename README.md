@@ -10,6 +10,8 @@
     - 이미 username이 로컬 저장소에 있을경우 로그인 폼 없이 "hello, username" 출력
 
 <h2>7/5/2023 </h2>
+<img width="156" alt="스크린샷 2023-07-05 오후 11 46 09" src="https://github.com/bladnoch/Webtoon_App/assets/112937442/c5f46479-ae71-4c1a-8a73-c3dd3d6b4890">
+<img width="230" alt="스크린샷 2023-07-05 오후 11 44 45" src="https://github.com/bladnoch/Webtoon_App/assets/112937442/3546dc18-3c82-462d-a1de-f5d23916247b">
 
     - divide and conquered by file type and perpose
     - clock.js : 시간 표시관련 변수, function

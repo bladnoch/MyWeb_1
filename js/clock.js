@@ -4,8 +4,10 @@ count=0;
 function getClock(){
 
     const date= new Date();
-    // console.log(`${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`)
-    clock.innerText=`${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`
+    const hrs=String(date.getHours()).padStart(2,"0");
+    const mins=String(date.getMinutes()).padStart(2,"0")
+    const secs =String(date.getSeconds()).padStart(2,"0")
+    clock.innerText=`${hrs} : ${mins} : ${secs}`
 }
 
 getClock();

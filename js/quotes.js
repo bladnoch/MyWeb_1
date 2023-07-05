@@ -1,3 +1,10 @@
+/**
+ * quotes.js: has quotes(quote:author), and displays it
+ * @author DoungukKim
+ * @since 7/5/2023
+ * @version v0.0.1
+ */
+
 const quotes =[
     {
         quote: "나도 몰라요 어떻게 살지 뭔 말을 해요?",

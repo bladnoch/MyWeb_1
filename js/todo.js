@@ -11,7 +11,7 @@ const toDoInput=toDoForm.querySelector("#todo-form input");
 const toDoList=document.getElementById("todo-list");
 
 
-
+// save input value and call paintTodo() method to save input
 function handleToDoSubmit(){
     // event.stopImmediatePropagation();
     event.preventDefault();
@@ -20,10 +20,14 @@ function handleToDoSubmit(){
     paintTodo(newTodo);
 }
 
+// add todo list on the screen
 function paintTodo(newTodo){
     const li=document.createElement("li");
     const span=document.createElement("span");
+    const button=document.createElement("button");
+    button.innerText="🅧";
     li.appendChild(span);
+    li.appendChild(button);
     span.innerText = newTodo;
     toDoList.appendChild(li);
 }

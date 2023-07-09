@@ -6,6 +6,7 @@
  * @version v0.0.1
  */
 
+//api from open weather
 const API_KEY="open weather API key"
 function onGeoGo(position){
     const lat=position.coords.latitude;

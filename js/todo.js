@@ -31,7 +31,9 @@ function handleToDoSubmit(){
 // delete todo list with x button
 function deleteDodo(event){
     const li=event.target.parentElement;
+    todos=todos.filter(todo => todo.id !== parseInt(li.id));
     li.remove();
+    saveTodos();
 
 }
 
@@ -53,6 +55,10 @@ function paintTodo(newTodo){
 
 function saveTodos(){
     localStorage.setItem(TODOS_KEY,JSON.stringify(todos));
+}
+
+function myFilter(){
+
 }
 
 toDoForm.addEventListener("submit",handleToDoSubmit);
